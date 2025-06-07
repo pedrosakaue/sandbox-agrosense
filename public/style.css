@@ -29,7 +29,8 @@ header h1 {
     align-self: center;
     align-items: center;
     width: 250px;
-    background-color: #1fa000;
+    background-color: rgba(49, 84, 33, 1);
+    color: #fff;
     padding: 20px;
     height: 100vh;
 }
@@ -53,14 +54,16 @@ header h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #1fa000;
+    /*background-color: #1fa000;*/
+    background-color: rgba(49, 84, 33, 1);
     border-color: #fff;
     border-radius: 8px;
     padding: 50px;
 }
 
-h1 {
-    color: #1F2A44;
+h3 {
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 textarea[type="text"] {
